@@ -1,0 +1,106 @@
+
+
+/* estilos barra de navegacion */
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    background-color: white;
+    
+   
+   
+}
+
+.color_dropdown {
+ 
+    border-radius: 5px;
+}
+
+.color_dropdown:hover {
+    background-color: #71d475;
+    border-radius: 5px;
+}
+.btn{
+    width: 200px;
+}
+
+
+/* estilo section inicio */
+
+.section-inicio {
+    background-color: #ABBED1;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 4rem;
+   
+}
+
+
+
+.servicios-inicio {
+    color: #71d475;
+}
+
+.btn-inicio {
+    padding: 6px;
+    width: 100px;
+    background-color: #71d475;
+    border: .5px solid #58ac5b;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-inicio:hover {
+    
+    background-color: #66e46a;
+}
+
+.container-inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+/* aqui inicia la sesion de nosotros */
+.section-nosotros{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 10rem;
+    background-color: #7d65aa;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* no tocar esta sesion, aqui se realizara el codigo responsivo para computadores */
